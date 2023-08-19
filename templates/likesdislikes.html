@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo</title>
+    <link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/solid.css' %}"> 
+    <link rel="stylesheet" href="{% static 'css/v4-font-face.css' %}">
+    <link rel="stylesheet" href="{% static 'css/v5-font-face.css' %}">
+</head>
+<body>
+    <div class="container-fluid" style="margin: 15vh 40vw;">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-header">
+                    <img src="{% static 'images/facebook.jpg' %}" alt="" srcset="" class="img-fluid" style="height: 40vh !important;">
+                </div>
+                <div class="card-body bg-yellow">
+                    <div class="row justify-content-between">
+                        <div class="col">
+                            <button class="btn rounded-pill bg-primary" id="inc"><i class="fa-solid fa-thumbs-up"></i></button> <span id="like"> 0 </span>
+                        </div>
+                        <div class="col">
+                            <button class="btn rounded-pill bg-warning" id="dec"><i class="fa-solid fa-thumbs-down"></i></button> <span id="dislike"> 0 </span>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col text-center">
+                            <h5>Result:- <span id="total"> 0 </span> </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'js/likesdislike.js' %}"></script>
+</body>
+</html>

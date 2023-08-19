@@ -1,0 +1,19 @@
+
+.bg-light
+{
+    background-color:rgb(201,215,248)!important;
+}
+body
+{
+    background-color: blue;
+}
+
+.full-width {
+  grid-column: span 2;
+}
+
+.large-label {
+  display: inline-block;
+  font: bold 1.5rem sans-serif;
+  margin-bottom: 0.5rem;
+}

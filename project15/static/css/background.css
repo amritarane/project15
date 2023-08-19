@@ -1,0 +1,9 @@
+#one
+{
+    background-color: yellow;
+    background-repeat: no-repeat;
+    background-position: 20px 40px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(static\images\butterfly.jpg);
+}

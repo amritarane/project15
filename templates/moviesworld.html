@@ -1,0 +1,133 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%  static 'css/bootstrap.css' %}">
+	<link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+    <title>movies world</title>
+    <style>
+        .landing-page
+        {
+            background: rgb(121, 21, 21) url("{% static 'images/nature.jpg' %}")no-repeat 0px 0px scroll;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-dark navbar-dark navbar-expand">
+		<div class="container-fluid">
+			<a href="" class="navbar-brand container"><span class="text-success">Movies World</span></a>
+        </div>
+        <div class="container-fluid">
+				<ul class="navbar-nav ">
+					<li class="nav-item">
+						<a href="" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-link">Movies</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-link">Series</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-link">Popular</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-link">trends</a>
+					</li>
+				</ul>
+            </div>
+            <select name="" id="" class="navbar-nav bg-dark text-white">
+                <option value="">Profile</option>
+                <option value="">About</option>
+                <option value="">Contact</option>
+            </select>
+	</nav>
+    <div class="row">
+        <div class="col bg-danger bg-gradient " style="height: 70vh;">
+            <p class="col-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat, corrupti minus? Laudantium dolorum, deserunt alias explicabo quasi a labore? 
+                Quas obcaecati vero architecto laboriosam quaerat iste? Iusto, quidem tempora. Commodi.</p>
+                <button class="mt-5 ml-5" bg>Watch</button>
+        </div>
+    </div>
+    <div class="continer-fluid mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <img class="card-img-top" src="{% static 'images/police.jfif' %}" alt="Card image cap">
+                    </div>
+                    <div class="card-body bg-yellow">
+                        <h3>Suryavanshi</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Debitis quaerat ipsam nobis minus id nihil officiis laboriosam recusandae 
+                            voluptatibus provident.</p>
+                            <button class="btn btn-md" onclick="window.location.href='https://www.imdb.com/title/tt9531772/';">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <img class="card-img-top" src="{% static 'images/wfls.jfif' %}" alt="Card image cap">
+                    </div>
+                    <div class="card-body bg-yellow">
+                        <h3>world famous love story</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Debitis quaerat ipsam nobis minus id nihil officiis laboriosam recusandae 
+                            voluptatibus provident.</p>
+                            <button class="btn btn-md" onclick="window.location.href='https://www.youtube.com/watch?v=1odS6ynbWNo/';">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <img class="card-img-top" src="{% static 'images/fida.jfif' %}" alt="Card image cap">
+                    </div>
+                    <div class="card-body bg-yellow">
+                        <h3>Fidaa</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Debitis quaerat ipsam nobis minus id nihil officiis laboriosam recusandae 
+                            voluptatibus provident.</p>
+                            <button class="btn btn-md" onclick="window.location.href='https://www.youtube.com/watch?v=I3o-UeFZFKo/';">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <img class="card-img-top" src="{% static 'images/pushpa.jpg' %}" alt="Card image cap">
+                    </div>
+                    <div class="card-body bg-yellow">
+                        <h3>Pushpa</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Debitis quaerat ipsam nobis minus id nihil officiis laboriosam recusandae 
+                            voluptatibus provident.</p>
+                            <button class="btn btn-md" onclick="window.location.href='https://www.imdb.com/title/tt9389998/';">Watch Now</button>
+                    </div>
+                </div>
+            </div>   
+        
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <img class="card-img-top" src="{% static 'images/225.jfif' %}" alt="Card image cap">
+                    </div>
+                    <div class="card-body bg-yellow">
+                        <h3>Dear Comrade</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Debitis quaerat ipsam nobis minus id nihil officiis laboriosam recusandae 
+                            voluptatibus provident.</p>
+                            <button class="btn btn-md" onclick="window.location.href='https://www.youtube.com/watch?v=zzhfvt5vZHI';">Watch Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

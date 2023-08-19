@@ -1,0 +1,81 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: #ceedf5;
+}
+nav {
+  background: linear-gradient(#033747, #012733);
+  height: 80px;
+  line-height: 80px;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  font-size: 30px;
+  font-weight: bold;
+  align-items: left;
+  color: white;
+  cursor: pointer;
+  text-shadow: white;
+}
+#logo::first-letter {
+  color: #57e0cc;
+  font-size: 50px;
+  margin: 5px;
+}
+#menu ul {
+  float: right;
+}
+#menu li {
+  list-style: none;
+  display: inline-block;
+}
+#menu li a {
+  font-size: 18px;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+}
+#menu li a:hover {
+  color: #f0b33a;
+}
+
+#img {
+  border: 5px black;
+}
+
+#Contact {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: flex-end; */
+}
+
+#Contact a {
+  text-align: center;
+  line-height: 60px;
+}
+#Contact a i {
+  transition: all 0.3s linear;
+}
+#Contact a:hover {
+  transform: scale(l.4);
+  color: cornflowerblue;
+  box-shadow: 1px 4px 2px 2px ( #787777);
+}
+.fa-instagram {
+  color: #e84393;
+}
+.fa-linkedin {
+  color: #0097e6;
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-whatsapp {
+  color: green;
+}

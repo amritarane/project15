@@ -1,0 +1,97 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <!-- Include the required MDBBootstrap CSS and JavaScript -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdb-ui-kit@3.11.0/css/mdb.min.css" />
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Calculator</h4>
+            <input type="text" id="result" class="form-control mb-3" readonly />
+
+            <div class="row">
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('7')">7</button>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('8')">8</button>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('9')">9</button>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-danger btn-lg btn-block" onclick="clearResult()">C</button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('4')">4</button>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('5')">5</button>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('6')">6</button>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('+')">+</button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('1')">1</button>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('2')">2</button>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('3')">3</button>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('-')">-</button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('0')">0</button>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('.')">.</button>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="calculateResult()">=</button>
+              </div>
+              <div class="col-3">
+                <button class="btn btn-primary btn-lg btn-block" onclick="appendValue('')"></button>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 mt-3">
+                <button class="btn btn-secondary btn-lg btn-block" onclick="clearResult()">Clear</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include the required MDBBootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/mdb-ui-kit@3.11.0/js/mdb.min.js"></script>
+
+  <script src="{% static 'js/calculator.js' %}">
+    // Function to append values to the result input
+    
+  </script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoomato</title>
+    <link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/all.css' %}">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 class="text-danger">
+                    Zoomato
+                </h1>
+                <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quae necessitatibus nulla nemo, 
+                tempore error eius hic aut illum impedit illo culpa voluptate cumque explicabo animi harum vel id soluta?</p>
+            </div>
+        </div>
+    </div>
+    <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr  class="bg-danger text-white">
+              <th scope="col"><b>#</b></th>
+              <th scope="col"><b>Item Name</b></th>
+              <th scope="col"><b>Item Price</b></th>
+              <th scope="col"><b>Quantity</b></th>
+              <th scope="col"><b>Total</b></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-#cfd8dc blue-grey lighten-4">
+              <th scope="row">1</th>
+              <td>Biriyani</td>
+              <td>299.00</td>
+              <td><button onclick="decrement()"><i class="fa-sharp fa-solid fa-minus"></i></button> <span id="count1"> 1 </span> <button onclick="increment()"><i class="fa-regular fa-plus" style="color: #000000;"></i></button></td>
+              <td>299.00</td>              
+            </tr>
+            <tr class="bg-#cfd8dc blue-grey lighten-4">
+              <th scope="row">2</th>
+              <td>Kebab</td>
+              <td>199.00</td>
+              <td><button onclick="decrement()"><i class="fa-sharp fa-solid fa-minus"></i></button> <span id="count2"> 1 </span> <button onclick="increment()"><i class="fa-regular fa-plus" style="color: #000000;"></i></button></td>
+              <td>199.00</td>
+            </tr>
+            <tr class="bg-#cfd8dc blue-grey lighten-4">
+              <th scope="row">3</th>
+              <td>Chiken Tikka</td>
+              <td>249.00</td>
+              <td><button onclick="decrement()"><i class="fa-sharp fa-solid fa-minus"></i></button> <span id="count3"> 1 </span><button onclick="increment()"><i class="fa-regular fa-plus" style="color: #000000;"></i></button></td>
+              <td>249.00</td>            
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <script src="{% static 'js/zomato.js' %}"></script>
+</body>
+</html>

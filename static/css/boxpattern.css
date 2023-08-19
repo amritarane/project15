@@ -1,0 +1,84 @@
+#one
+{
+    color: red;
+    background-color: blue ;
+    width: 50px;
+    padding:20px;
+    border:5px red solid  ;
+    border-radius:20px;
+    background-image:url('..\assets\images\s2.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0px 0px;
+
+}
+#two
+{
+    color: green;
+    background-color:black ;
+    width: 40px;
+    padding:10px;
+    border-top:5px green solid  ;
+    border-left:5px green solid  ;
+    border-bottom:5px yellowgreen solid  ;
+    border-right:5px yellowgreen solid  ;
+    border-radius: 20px;
+    margin-left: 80px;
+
+}
+#three
+{
+    color: green;
+    background-color:pink ;
+    width: 30px;
+    padding:20px;
+    border:5px blue dashed  ;
+    border-radius: 20px;
+}
+#four
+{
+    color: green;
+    background-color:orange ;
+    width: 70px;
+    padding:35px;
+    border:5px blue dotted ;
+    border-radius: 20px;
+    margin-left: 130px;
+    border-radius: 20px;
+}
+#five
+{
+
+    color:darkslategrey ;
+    background-color:darkseagreen;
+    width: 50px;
+    padding:20px;
+    border:5px darkslategray solid;
+    border-radius: 20px;
+    margin-left: 260px;
+}
+#six
+{
+
+    color: violet;
+    background-color:purple ;
+    width: 50px;
+    padding:20px;
+    border-top:5px violet solid  ;
+    border-left:5px violet solid  ;
+    border-right: 5px purple solid;
+    border-bottom: 5px purple solid;
+    border-radius: 20px;
+    margin-left: 340px;
+}	
+#seven
+{
+    color: blue;
+    background-color:darkred;
+    width: 40px;
+    padding:20px;
+    border:5px blue dotted ;
+    margin-left: 420px;
+    border-radius:20px;
+}

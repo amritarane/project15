@@ -1,0 +1,62 @@
+{%  load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>AMRITA's Page</title>
+    <link rel="stylesheet" href="{% static 'css/fontawesome.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/v4-font-face.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/v4-shims.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/v5-font-face.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/brands.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/all.css' %}"/>
+    <link rel="shortcut icon" href="" type="image/x-icon"/>
+  </head>
+  <link rel="stylesheet" href="{% static 'css/mypage.css' %}" />
+  <body>
+    <nav>
+      <div id="logo">AMRITA</div>
+      <div id="menu">
+        <ul>
+          <li>
+            <a href=""><i class="fa fa-thin fa-house"> </i>Home</a>
+          </li>
+          <li>
+            <a href=""><i class="fa fa-thin fa-circle-user"></i>Contact</a>
+          </li>
+          <li>
+            <a href=""><i class="fa fa-thin fa-camera"></i>Photos</a>
+          </li>
+          <li></li>
+        </ul>
+      </div>
+    </nav>
+    <div id="img">
+      <img src="{% static 'images/insta.jpg' %}" alt="" width="300px" height="400px" />
+      <img src="{% static 'images/facebook.jpg' %}" alt="" width="300px" height="400px" />
+      <img src="{% static 'images/whatsapp.jpg' %}" alt="" width="300px" height="400px" />
+      <img src="{% static 'images/linkdin.jpg' %}" alt="" width="300px" height="400px" />
+
+    </div>
+    <div id="Contact">
+      <a href="" target="_blank">
+        <i class="fa fa-2x fa-brands fa-instagram"></i>
+      </a>
+
+      <a href="" target="_blank">
+        <i class="fa fa-2x fa-brands fa-facebook"></i>
+      </a>
+
+      <a href="" target="_blank">
+        <i class="fa fa-2x fa-brands fa-whatsapp"></i>
+      </a>
+      <a
+        href=""
+        target="_blank"
+        ><i class="fa fa-2x fa-brands fa-linkedin"></i
+      ></a>
+    </div>
+  </body>
+</html>
